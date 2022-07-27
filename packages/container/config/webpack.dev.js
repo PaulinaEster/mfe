@@ -19,10 +19,7 @@ const devConfig = {
         marketing: 'marketing@http://localhost:8081/remoteEntry.js'
       },
       shared: packageJson.dependencies,
-    }),
-    new HtmlWebpackPuglin({
-      template: './public/index.html',
-    }),
+    })
   ],
 };
 
